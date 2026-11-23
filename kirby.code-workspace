@@ -1,0 +1,13 @@
+{
+  "folders": [{"path": "."}],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "prettier.requireConfig": true,
+    "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer",
+    "php-cs-fixer.config": ".php-cs-fixer.dist.php",
+    "[php]": {"editor.defaultFormatter": "junstyle.php-cs-fixer"}
+  }
+}

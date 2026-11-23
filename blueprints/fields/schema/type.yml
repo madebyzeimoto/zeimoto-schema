@@ -1,0 +1,17 @@
+# ==========================================================
+# Fields :: Schema :: Type
+# ==========================================================
+
+type: select
+label: Schema Type
+translate: false
+default: WebPage
+options:
+  WebPage: Web Page
+  AboutPage: About Page
+  ProfilePage: Profile Page
+  CreativeWork: Creative Work
+  Article: Article
+  CollectionPage: Collection Page
+  ContactPage: Contact Page
+  FAQPage: FAQ Page
