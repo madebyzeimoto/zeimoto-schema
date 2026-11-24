@@ -7,7 +7,7 @@
   "authors": [{"name": "zeimoto"}],
   "require": {
     "php": "^8.5",
-    "getkirby/cms": "^6.0@RC",
+    "getkirby/cms": "^6.0",
     "getkirby/composer-installer": "^1.2.1",
     "zeimoto/compute": "^0.2"
   },
