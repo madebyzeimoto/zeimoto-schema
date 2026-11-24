@@ -3,15 +3,24 @@
 # ==========================================================
 
 type: select
-label: Schema Type
+label:
+  "*": zeimoto-schema.fields.type
 translate: false
 default: WebPage
 options:
-  WebPage: Web Page
-  AboutPage: About Page
-  ProfilePage: Profile Page
-  CreativeWork: Creative Work
-  Article: Article
-  CollectionPage: Collection Page
-  ContactPage: Contact Page
-  FAQPage: FAQ Page
+  WebPage:
+    "*": zeimoto-schema.fields.options.web-page
+  AboutPage:
+    "*": zeimoto-schema.fields.options.about-page
+  ProfilePage:
+    "*": zeimoto-schema.fields.options.profile-page
+  CreativeWork:
+    "*": zeimoto-schema.fields.options.creative-work
+  Article:
+    "*": zeimoto-schema.fields.options.article
+  CollectionPage:
+    "*": zeimoto-schema.fields.options.collection-page
+  ContactPage:
+    "*": zeimoto-schema.fields.options.contact-page
+  FAQPage:
+    "*": zeimoto-schema.fields.options.faq-page
